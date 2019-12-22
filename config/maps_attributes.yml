@@ -1,0 +1,27 @@
+CustomerA: 
+  api_key: AIzaSyCI33WirMl2FJlzwi5vey0C8T63qnFh4Jg 
+  type: atm 
+  language: English 
+  response_output: xml 
+  number_of_locations: 200 
+  lat: 30.4284750 
+  lon: -97.7550500
+
+CustomerB: 
+  api_key: AIzaSyCI33WirMl2FJlzwi5vey0C8T63qnFh4Jg 
+  type: bank 
+  language: Spanish 
+  response_output: json 
+  number_of_locations: 200 
+  lat: 30.4284750 
+  lon: -97.7550500
+
+CustomerC: 
+  api_key: AIzaSyCI33WirMl2FJlzwi5vey0C8T63qnFh4Jg 
+  type: all 
+  language: French 
+  response_output: json 
+  number_of_locations: 5 
+  lat: 30.4284750 
+  lon: -97.7550500
+

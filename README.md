@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# How to run the api
 
-Things you may want to cover:
+curl localhost:3000/api/v1/maps?customer='CustomerA'
+curl localhost:3000/api/v1/maps?customer='CustomerB'
+curl localhost:3000/api/v1/maps?customer='CustomerC'
 
-* Ruby version
+# Handling errors
 
-* System dependencies
+404 : curl localhost:3000/api/v1/maps
 
-* Configuration
+# How to run the test suite
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rspec spec/lib/maps_search_spec.rb

@@ -3,8 +3,11 @@
 # How to run the api
 
 curl localhost:3000/api/v1/maps?customer='CustomerA'
+
 curl localhost:3000/api/v1/maps?customer='CustomerB'
+
 curl localhost:3000/api/v1/maps?customer='CustomerC'
+
 
 # Handling errors
 
